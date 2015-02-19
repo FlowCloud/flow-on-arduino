@@ -1,0 +1,78 @@
+.c-android-logo.q-inline
+{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	background: #ffffff url('/flow-on-arduino/images/android_logo.png') no-repeat left center;	
+}
+
+.c-ios-logo.q-inline
+{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	background: #ffffff url('/flow-on-arduino/images/ios_logo.png') no-repeat left center;	
+}
+
+table 
+{
+	width: 100%;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #EFEFEF;
+	border-top: none;
+	box-shadow: 0px 1px #cfcfcf;
+	-webkit-box-shadow: 0px 1px #cfcfcf;
+	-moz-box-shadow: 0px 1px #cfcfcf;		
+	margin: 0 0 18px; 
+	/**border-collapse: separate;**/
+
+}
+
+table thead, table tfoot {	background: none repeat scroll 0 0 #EBEBEB;	}
+
+table thead tr th:first-child, table tfoot tr td:first-child {	border-left: medium none;	}
+
+table thead tr th, table tfoot tr td 
+{
+	font-family: 'Open Sans',sans-serif;
+    color: #616161;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding: 16px 10px 16px;
+}
+
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td 
+{
+    display: table-cell;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+}
+
+table thead tr th
+{
+	border-bottom: none;
+	border-right: 1px solid #fff;
+}
+
+table thead tr th:last-child{	border-right: none;	}
+
+table tbody{	border-top: none; }
+
+.expandcollapse {
+    padding-left: 13px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url("/flow-on-arduino/images/collapsed.gif");
+    display: block;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #ccc;
+	text-decoration: none;
+}
+
+/*.expandcollapse:hover {
+	text-decoration: none;
+}*/

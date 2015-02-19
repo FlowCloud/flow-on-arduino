@@ -1,0 +1,20 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            FlowCloud on Arduino
+description:      'Getting started with using <a href="http://flow.imgtec.com/developers/">FlowCloud</a> to connect the Arduino platform to the Internet of Things'
+baseurl:          /flow-on-arduino/
+
+author:
+  name:           'Simon Pinfold'
+
+paginate:         1
+
+github:
+  repo:           https://github.com/IMG-FlowCloud/geofence
