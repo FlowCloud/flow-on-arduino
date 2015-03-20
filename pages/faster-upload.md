@@ -17,10 +17,29 @@ chipKIT provides the WiFire with a bootloader implementing the STK500v2 protocol
 
 ### What we can change
 The default bootloader uses a set speed of 115200 bits per second - just over 110 kbits/s.
-This is slow. The WiFire can handle receiving data at 3000000 bits/s or 3 Mbits/s.
-By modifying the bootloader source provided [here](https://github.com/chipKIT32/PIC32-avrdude-bootloader) by chipKIT we can bump the expected baud rate of the WiFire bootloader all the way up to 3 Mbps.
+This is slow. The WiFire can handle receiving data at 3000000 bits/s or 3 Mbits/s. By modifying the bootloader source provided [here](https://github.com/chipKIT32/PIC32-avrdude-bootloader) by chipKIT we can bump the expected baud rate of the WiFire bootloader all the way up to 3 Mbps.
 
-A version with this change can be found [here](/downloads/chipKIT-WiFire-3Mbps.hex).
+###Steps to modify the Digilent Bootloader to 3Mbit/s and build:
+
+1.	Install MPLAB X IDE & MPLAB X IPE (available from the Microchip website)
+2.	Open the project in MPLAB X IDE
+(PIC32-avrdude-bootloader-master\bootloaders\chipKIT-Bootloaders.X)
+3.	Right-click the Project name “chipKIT-Bootloaders” and click ‘Set As Main Project’
+In the Build config dropbox, change the build config from MAJENKJO_ULTRANANO to WiFire
+4.	In the Project Navigator click ‘Header Files’ and open BoardConfig.h (PIC32-avrdude-bootloader-master\bootloaders\BoardConfig.h)
+5.	Change line 1390 to use the new baudrate
+         
+      from	#define BAUDRATE                    115200            // avrdude baudrate   
+      to	#define BAUDRATE                    3000000           // avrdude baudrate   
+
+6.	Click the “Clean and Build Main Project” button at the top (the button with the hammer and broom icon)
+7.	You can find the new bootloader hex file in the following location:
+PIC32-avrdude-bootloader-master\bootloaders\chipKIT-Bootloaders.X\dist\WiFire\production\chipKIT-Bootloaders.X.production.hex
+
+      You might like to rename this to chipKIT-bootloader-3Mbit_upload.hex  
+   
+8.	Load the new bootloader onto your Wifire using MPLAB X IPE tool and a hardware programmer such as the ChipKIT PGM, PICkit 3 or MPLAB ICD3.
+
 
 When using this bootloader set the board type to the 3Mbps variant in board selection.
 
