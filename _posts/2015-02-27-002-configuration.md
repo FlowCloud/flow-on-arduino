@@ -15,7 +15,7 @@ If you have any problems along the way, either through following the steps in th
 
 ## FlowCloud installation
 
-Simply download the [WiFire_Flow.zip]() open it and drag the "hardware" folder into your mpide folder and confirm that you want to merge the folders, replacing all file conflicts.
+Simply go [here](http://flow.imgtec.com/developers/develop/embedded/pic32mz-free-rtos/downloads) and download the WiFire Arduino extensions then open it and drag the "hardware" folder into your mpide folder and confirm that you want to merge the folders, replacing all file conflicts.
 
 ![MPIDE FlowCloud installation](/flow-on-arduino/images/MPIDE-flowcloud-install.png)
 
