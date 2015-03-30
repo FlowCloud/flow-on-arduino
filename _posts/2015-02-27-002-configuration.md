@@ -19,6 +19,10 @@ Simply go [here](http://flow.imgtec.com/developers/develop/embedded/pic32mz-free
 
 ![MPIDE FlowCloud installation](/flow-on-arduino/images/MPIDE-flowcloud-install.png)
 
+<!---
+Next you will need to compile the CyaSSL library, to do this follow the instructions under section 2.6 in the getting started guide [here](http://flow.imgtec.com/developers/develop/embedded/pic32mz-free-rtos/downloads). The library will be located in the harmony directory under `third_party/bin/libcyassl.X.a`, copy this to `hardware\pic32\variants\WiFire_Flow\libcyassl.X.a` under the MPIDE directory.
+-->
+
 ## Programming the WiFire
 
 Now that you have installed FlowCloud into MPIDE you can upload a sample sketch to the WiFire.
