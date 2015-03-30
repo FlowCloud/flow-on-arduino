@@ -5,7 +5,7 @@ title: Geofence Application&#58; Android Client
 
 What we have so far can do all the logging and alert triggering, but it's pretty useless without a client application to use it.
 
-I have produced an Android client based on MakeItFlow. I have replaced the command interface with a map-based GUI. This branch of MakeItFlow is available in the github mirror of MakeItFlow [here](https://github.com/IMG-FlowCloud/make-it-flow-arduino/tree/geofence). The apk can also be downloaded from the [release page](https://github.com/IMG-FlowCloud/make-it-flow-arduino/releases/tag/geofence).
+I have produced an Android client based on MakeItFlow, which you can get [here](https://github.com/IMG-FlowCloud/flow-on-arduino/raw/gh-pages/downloads/app-geofence-debug.apk). I have replaced the command interface with a map-based GUI. This branch of MakeItFlow is available in the github mirror of MakeItFlow [here](https://github.com/IMG-FlowCloud/make-it-flow-arduino/tree/geofence). The apk can also be downloaded from the [release page](https://github.com/IMG-FlowCloud/make-it-flow-arduino/releases/tag/geofence).
 
 The client doesn't have to be Android. You could use any of the [Flow SDKs](http://flow.imgtec.com/developers/develop). For example you could make a web-based client using the [Linux python SDK](http://flow.imgtec.com/developers/develop/desktop/linux/python-sdk) and Django. Using Vagrant will allow you to create an environment for using both the python and C SDKs on linux, instructions for setting this up can be found [here](http://flow.imgtec.com/developers/develop/desktop/linux/setup)
 
