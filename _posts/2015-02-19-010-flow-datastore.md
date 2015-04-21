@@ -26,7 +26,7 @@ private:
     FlowDataStore _datastore;
 }; 
 {% endhighlight %}
-The implementation, datastore.pde can be found [here on GitHub](https://github.com/IMG-FlowCloud/geofence/blob/master/datastore.pde).
+The implementation, datastore.pde can be found [here on GitHub](https://github.com/FlowCloud/geofence/blob/master/datastore.pde).
 A second tab within MPIDE is used to refactor out this functionality. 
 
 This implementation uses the [device datastore API](http://uploads.flowworld.com/libflowcore/docs/c/2.0/da/d26/group__DataStores.html#ga553022e551c0d47837a815654ab52f59) as it is designed to run on a device however it could be modified to support both device and user datastores. It is also missing retrieval functions, which can be added as needed. 
@@ -148,4 +148,4 @@ This datetime string can be generated using a similar method as with generating 
 
 Finally we can update the mainloop to do saving at a pre-determined period and periodic clearing of old values.
 
-This version can be found in [commit c910142](https://github.com/IMG-FlowCloud/geofence/tree/c91014244d702703a2930aae3465e40068deb8df).
+This version can be found in [commit c910142](https://github.com/FlowCloud/geofence/tree/c91014244d702703a2930aae3465e40068deb8df).

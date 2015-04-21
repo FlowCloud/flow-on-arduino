@@ -59,4 +59,4 @@ void setPeriod(ReadableXMLNode &params, XMLNode &response)
 
 We also need to change to using an integer loggingPeriod for how long to wait between each save, and set this to some default value.
 
-This version can be seen in [commit f3da9ef](https://github.com/IMG-FlowCloud/geofence/tree/f3da9effc37aa6ba9b6256512261867b3c69e5a2).
+This version can be seen in [commit f3da9ef](https://github.com/FlowCloud/geofence/tree/f3da9effc37aa6ba9b6256512261867b3c69e5a2).

@@ -103,5 +103,5 @@ Note specifically `FlowMessaging_SendMessageToUser` from the FlowMessaging libra
 To identify the target we use the [FlowCloud variable for the owner's ID](/flow-on-arduino/pages/api#globalvariables). 
 To send messages to other devices we could use `FlowMessaging_SendMessageToDevice`. In this case the device IDs could be hard-coded or fetched programmatically using the [FlowDevices API](http://uploads.flowworld.com/libflowcore/docs/c/2.0/db/da6/classFlowDevices.html). 
 
-We've now finished our geofence application on the WiFire. The final code can be found in the [GitHub repository](https://github.com/IMG-FlowCloud/geofence).
+We've now finished our geofence application on the WiFire. The final code can be found in the [GitHub repository](https://github.com/FlowCloud/geofence).
 

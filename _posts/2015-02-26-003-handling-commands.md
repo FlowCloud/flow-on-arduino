@@ -72,7 +72,7 @@ void loop()
 
 <hr>
 
-The final sketch follows. You can also find this sketch [on github](https://github.com/IMG-FlowCloud/arduino-examples/tree/master/FlowToggleLED).
+The final sketch follows. You can also find this sketch [on github](https://github.com/FlowCloud/arduino-examples/tree/master/FlowToggleLED).
 {% highlight c++ %}
 #include <FlowCommandHandler.h>
 

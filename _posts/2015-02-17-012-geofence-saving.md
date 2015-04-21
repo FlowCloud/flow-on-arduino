@@ -81,6 +81,6 @@ void getGeofence(ReadableXMLNode &params, XMLNode &response)
 
 Note the use of `/` in getChild to navigate the XML we defined earlier. This works in a similar way to the forward-slash separator used in XPATH.
 
-This version can be found in [commit 58cd12e](https://github.com/IMG-FlowCloud/geofence/tree/58cd12ecd7a501255c2fe08d499001c1fb88791a).
+This version can be found in [commit 58cd12e](https://github.com/FlowCloud/geofence/tree/58cd12ecd7a501255c2fe08d499001c1fb88791a).
 
 We now have a geofence stored on our device and we can get on to generating an alert for when the GPS reading is outside the geofence.

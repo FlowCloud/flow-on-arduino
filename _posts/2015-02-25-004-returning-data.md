@@ -14,12 +14,12 @@ While the version of MakeItFlow we have been using so far allows us to send comm
 it does not support displaying more advanced returned data. Luckily, MakeItFlow is open source. 
 The official download of the Android source can be found on 
 [the FlowCloud developer website](http://flow.imgtec.com/developers/develop/mobile), 
-but I have created a mirror on github [here](https://github.com/IMG-FlowCloud/make-it-flow-arduino). 
+but I have created a mirror on github [here](https://github.com/FlowCloud/make-it-flow-arduino). 
 
-In the branch [enhanced-ouput](https://github.com/IMG-FlowCloud/make-it-flow-arduino/tree/enhanced-output) I have made the required changes to display 
+In the branch [enhanced-ouput](https://github.com/FlowCloud/make-it-flow-arduino/tree/enhanced-output) I have made the required changes to display 
 response parameters. I have also added colorisation to the message log and ensured that the XML response parameters 
 are pretty-printed (e.g. indented nicely). To use this version of MakeItFlow you can download the sources from 
-github and build the app (simply import it into Android Studio and use Gradle to build). Alternately you can download the compiled apk [from the releases page](https://github.com/IMG-FlowCloud/make-it-flow-arduino/releases/tag/enhanced-output-v1).
+github and build the app (simply import it into Android Studio and use Gradle to build). Alternately you can download the compiled apk [from the releases page](https://github.com/FlowCloud/make-it-flow-arduino/releases/tag/enhanced-output-v1).
 
 This version of the app can also serve as a base for your own GUI with messages handled in the background.  
 
@@ -47,7 +47,7 @@ void setLED1(ReadableXMLNode &params, XMLNode &response)
 {% endhighlight %}
 
 If we upload this sketch and run the same command as before, we can see our message printed to the message list.
-This sketch can be found on github [here](https://github.com/IMG-FlowCloud/arduino-examples/tree/master/FlowReturnHello).
+This sketch can be found on github [here](https://github.com/FlowCloud/arduino-examples/tree/master/FlowReturnHello).
 
 <img src="/flow-on-arduino/images/hello-flow.png" width="352"></img>
 
@@ -135,7 +135,7 @@ For more information on how XMLNodes can be used check out the documentation <a 
 
 Finally we should remove the "Hello Flow!" message from the set LED command, as this command is called "set LED" not "say hello".
 
-The final sketch is available [on github](https://github.com/IMG-FlowCloud/arduino-examples/tree/master/FlowReturnStatus).
+The final sketch is available [on github](https://github.com/FlowCloud/arduino-examples/tree/master/FlowReturnStatus).
 
 When we send the `GET STATUS` command we can now see the structured data returned as XML.
 

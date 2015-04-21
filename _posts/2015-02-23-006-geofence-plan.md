@@ -15,7 +15,7 @@ GPS data also provides a good example of data that can both be logged and have e
 
 <hr>
 
-I'll be using git to manage my development and you can access the [repository here](https://github.com/IMG-FlowCloud/geofence). 
+I'll be using git to manage my development and you can access the [repository here](https://github.com/FlowCloud/geofence). 
 
 ## List of materials  
 
